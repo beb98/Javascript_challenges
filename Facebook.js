@@ -1,7 +1,8 @@
 /*
 - 3 / 1 / 2019
 - asked by facebook
-- solutions by George S. Musk
+- solutions by BebJS
+
 Given a string and a set of delimiters,
 reverse the words in the string while maintaining the relative order of the delimiters.
 For example, given "hello/world:here", return "here/world:hello"
