@@ -20,14 +20,12 @@ var specificValue = 10;
 var ourArray = [3, 4, 5, 6, 7];
 var forGetNum = Array(specificValue);
 
-
 for(let i = 0; i < specificValue; i++) {
 
     var diff = specificValue - i;
-    
     var getIndexes = [];
     var indexWinner = ourArray.indexOf(diff);
-    
+   
     if(indexWinner != -1) {
         
         var ourFirstWinner = ourArray[indexWinner];
@@ -41,14 +39,9 @@ for(let i = 0; i < specificValue; i++) {
                 forGetNum.push([ourFirstWinner, ourArray[getTheCompelete]]);
                 
             }
-
-        }
-        
-        
+        }  
     } 
-    
 }
-
 
 var resultArr = [];
 
@@ -59,7 +52,6 @@ for(let x = 0; x < forGetNum.length; x++) {
         resultArr.push(forGetNum[x]);
        
     }
-    
 }
 
 console.log(resultArr);
