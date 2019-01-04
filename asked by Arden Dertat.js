@@ -20,12 +20,6 @@ var specificValue = 10;
 var ourArray = [3, 4, 5, 6, 7];
 var forGetNum = Array(specificValue);
 
-var isTheNumberHere = specificValue;
-var searchForIt = ourArray.indexOf(isTheNumberHere);
-if(searchForIt != -1) {
-    forGetNum.push([specificValue, 0]);
-}
-
 
 for(let i = 0; i < specificValue; i++) {
 
@@ -69,9 +63,4 @@ for(let x = 0; x < forGetNum.length; x++) {
 }
 
 console.log(resultArr);
-
-
-
-
-
 
