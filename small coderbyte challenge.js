@@ -13,7 +13,7 @@ Output:40320
 */
 
 function solveThis(num) {
-	var forSum = 1;;
+	var forSum = 1;
 	if(num <= 0) {
 		forSum = 'unvalied value';
 	} else {
