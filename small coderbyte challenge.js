@@ -23,4 +23,4 @@ function solveThis(num) {
 	}
 	console.log(forSum);
 }
-solveThis(-1);
+solveThis(8);
