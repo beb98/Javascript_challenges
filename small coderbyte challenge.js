@@ -14,12 +14,13 @@ Output:40320
 
 function solveThis(num) {
 	var forSum = 1;;
-	for(let i = 1; i < num + 1; i++) {
-		forSum = forSum * i;
+	if(num <= 0) {
+		forSum = 'unvalied value';
+	} else {
+		for(let i = 1; i < num + 1; i++) {
+			forSum = forSum * i;
+		}
 	}
-
 	console.log(forSum);
 }
-
-
-solveThis(8);
+solveThis(-1);
