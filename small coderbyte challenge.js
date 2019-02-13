@@ -21,6 +21,6 @@ function solveThis(num) {
 			forSum = forSum * i;
 		}
 	}
-	console.log(forSum);
+	return(forSum);
 }
 solveThis(8);
