@@ -23,7 +23,6 @@ function doThis (val) {
 
 	if(val < 0) {
 		return console.log(0);
-		console.log(0);
 	} else {
 		return console.log(val);
 		
